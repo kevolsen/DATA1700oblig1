@@ -8,7 +8,7 @@ function Bestill() {
     let biletter=document.getElementById("alleBiletter");
     let enBilett="";
 
-    var tlfREGX = /^[0-9]{8}$/;
+    var tlfREGX = /^[0-9\+]{8,12}$/;
     var epostREGX = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
     var tlfnrResultat =
